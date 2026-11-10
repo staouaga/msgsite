@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2a24;
+    color: #a3c293;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #3b533f;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #8fa882;
+}
+
+nav {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #3b533f;
+    color: #ffffff;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #a3c293;
+    border-bottom: 2px solid #3b533f;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #b5d6a7;
+}
+
+p, dd {
+    line-height: 1.6;
+}
+
+dt {
+    font-weight: bold;
+    color: #c8e6bc;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #3b533f;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2b3b30;
+    color: #c8e6bc;
+}
+
+tr:nth-child(even) {
+    background-color: #242424;
+}
+
+.featured-img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #3b533f;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    border-radius: 4px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #121212;
+    color: #777;
+    font-size: 0.9em;
+    border-top: 1px solid #222;
+}
